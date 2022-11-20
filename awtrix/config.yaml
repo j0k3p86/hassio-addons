@@ -1,0 +1,13 @@
+name: "Awtrix"
+description: "Awtrix addon for home assistant"
+version: "1.0.0"
+slug: "awtrix"
+url: "https://github.com/j0k3p86/awtrix-hassio"
+init: true
+arch:
+  - amd64
+  - i386
+startup: after
+ports:
+  7001/tcp: 7001
+  7000/tcp: 7000

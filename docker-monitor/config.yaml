@@ -1,0 +1,14 @@
+name: "Docker-Monitor"
+description: "Docker-Monitor addon for home assistant"
+version: "1.0.0"
+slug: "docker_monitor"
+url: "https://github.com/j0k3p86/awtrix-hassio"
+init: true
+arch:
+  - amd64
+  - i386
+startup: after
+ports:
+  2375/tcp: 2375
+docker_api: true
+full_access: true
